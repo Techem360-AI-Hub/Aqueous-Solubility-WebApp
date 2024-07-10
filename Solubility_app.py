@@ -41,7 +41,7 @@ if option == 'Home':
     st.sidebar.markdown('<h2 style="color:blue;background-color:lightgray;border-radius:10px;text-align:center"> Sidebar for Solubility Prediction </h2>', unsafe_allow_html=True)
 
     # Display my profile
-    st.markdown(""" This Web Application was developed by [Ngwu M. Comfort Ph.D, Ottah C. Daniel BSc., Nwabeke G. Ikpechi] for Aqeous Solubility Prediction of Organic molecules""")
+    st.markdown(""" This Web Application was developed by [Comfort, M. Ngwu Ph.D, Daniel C. Ottah, and Gabriel I. Nwabeke] for Aqueous Solubility Prediction of Organic molecules""")
 
     # Define solubility and explain why it is important
     st.markdown('`Solubility`, a crucial concept, is defined as the maximum quantity of solute capable of dissolving in a specific volume of solvent to produce a saturated solution at a designated temperature—typically room temperature. A fundamental guiding principle is "like dissolves like," signifying that molecules sharing similar polarities and intermolecular forces exhibit a greater tendency to dissolve in one another.The significance of water solubility extends into the realm of drug discovery, directly impacting bioavailability.')
