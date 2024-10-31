@@ -118,7 +118,7 @@ if option == 'Home':
 
     #  User input--------------------------------------------------------------------------------------------------------------
     # 1. One or few SMILES input
-    one_or_few_SMILES = st.sidebar.text_input('Enter SMILES Strings in single or double quotation separated by comma:',"['CCO']")
+    one_or_few_SMILES = st.sidebar.text_input('Enter SMILES Strings in single or double quotation separated by comma:',"['CCS']")
     st.sidebar.markdown('''<h3 style="color:blue">or upload SMILES strings in CSV format, note that SMILES strings of the molecules should be in 'SMILES' column:</h3>''', unsafe_allow_html=True)
 
 
@@ -200,7 +200,7 @@ if option == 'Home':
 
 elif option == 'Contact':
     st.title("Contact")
-    st.markdown('This web app was built by Dr. Ngwu Comfort PhD and her project student Ottah Daniel Chukwuemeka Bsc.')
+    st.markdown('This web app was built by Dr. Ngwu Comfort PhD and her project student.')
 
     from PIL import Image
     import io
