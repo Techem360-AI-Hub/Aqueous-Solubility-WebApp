@@ -1,6 +1,5 @@
 # import the necessary libraries
 import streamlit as st
-from distutils.command.upload import upload
 import numpy as np
 import pandas as pd 
 from matplotlib import image, pyplot as plt
