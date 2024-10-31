@@ -118,7 +118,7 @@ if option == 'Home':
 
     #  User input--------------------------------------------------------------------------------------------------------------
     # 1. One or few SMILES input
-    one_or_few_SMILES = st.sidebar.text_input('Enter SMILES Strings in single or double quotation separated by comma:',"['CC']")
+    one_or_few_SMILES = st.sidebar.text_input('Enter SMILES Strings in single or double quotation separated by comma:',"['CCs']")
     st.sidebar.markdown('''<h3 style="color:blue">or upload SMILES strings in CSV format, note that SMILES strings of the molecules should be in 'SMILES' column:</h3>''', unsafe_allow_html=True)
 
 
@@ -141,7 +141,7 @@ if option == 'Home':
         else:
             return ""
 
-    if one_or_few_SMILES != "['CCO']":
+    if one_or_few_SMILES != "['CCS']":
         df = pd.DataFrame(eval(one_or_few_SMILES), columns =['SMILES'])
         #function call to calculate 209 molecular descriptors using SMILES
         Mol_descriptors,desc_names = RDkit_descriptors(df['SMILES'])
